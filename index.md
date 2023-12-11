@@ -20,8 +20,7 @@
                 "IpUsuario" : ipUser,
                 "Idioma" : language,
                 "Navegador": browser,
-                "UrlInicio" : url,
-                "_FirstName" : PrimeiroNome
+                "UrlInicio" : url
             });
 
             // Remove any items from the previous list that you don't want to send
