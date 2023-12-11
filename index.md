@@ -26,9 +26,7 @@
                 "Navegador" : browser,
                 "UrlInicio" : url,
                 "Email_Custom" : EmailCus,
-                "input_Cpf" : Cpf,
-                "PrimeiroNomeCustom" : PrimeiroNome,
-                "SobrenomeCustom" : Sobrenome
+                "PrimeiroNomeCustom" : PrimeiroNome
                 
             });
 
