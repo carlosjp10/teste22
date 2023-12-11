@@ -7,7 +7,7 @@
         var url = window.location.href;
         var buttomChat = '225569';
         var PrimeiroNome = 'Carlos';
-        var EmailCustom= = 'calberto@gmail.com';
+        var EmailCustom = 'calberto@gmail.com';
         var PrimeiroNome = 'Carlos';
         var Sobrenome = 'Alberto';
         var Cpf = '85361804045;
