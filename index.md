@@ -4,6 +4,7 @@
         var ipUser = '001112254889';
         var language = (navigator.browserLanguage!=undefined) ?  navigator.browserLanguage : navigator.language;
         var browser = navigator.appName;
+      console.log(navigator.appName);
         var buttomChat = '225569';
         
     function initEmbeddedMessaging() {
@@ -17,7 +18,7 @@
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
                 "IpUsuario" : ipUser,
                 "Idioma" : language,
-                "Navegador": browser
+                "Navegador": 'Chrome'
             });
 
             // Remove any items from the previous list that you don't want to send
