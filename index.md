@@ -1,7 +1,7 @@
 <html>
   <body>
     <script type='text/javascript'>
-        var ipUser = '001.112.254.889';
+        var ipUser = '001112254889';
         var buttomChat = '225569';
         
     function initEmbeddedMessaging() {
