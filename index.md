@@ -7,6 +7,10 @@
         var url = window.location.href;
         var buttomChat = '225569';
         var PrimeiroNome = 'Carlos';
+        var EmailCustom= = 'calberto@gmail.com';
+        var PrimeiroNomeCustom = 'Carlos';
+        var SobrenomeCustom = 'Alberto';
+        var Cpf = '853.618.040-45;
         
     function initEmbeddedMessaging() {
         try {
@@ -20,7 +24,10 @@
                 "IpUsuario" : ipUser,
                 "Idioma" : language,
                 "Navegador": browser,
-                "UrlInicio" : url
+                "UrlInicio" : url,
+                "EmailCustom" : Email_Custom,
+                "input_Cpf" : Cpf
+                
             });
 
             // Remove any items from the previous list that you don't want to send
