@@ -3,9 +3,6 @@
     <script type='text/javascript'>
         var ipUser = "001.112.254.889";
         var buttomChat = '225569';
-        var language = (navigator.browserLanguage!=undefined) ?  navigator.browserLanguage : navigator.language;
-        var browser = navigator.appName;
-        var url = window.location.href;
         
     function initEmbeddedMessaging() {
         try {
@@ -16,11 +13,7 @@
 
             // Send data to Salesforce
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-                "IpUsuario" : '001112254889',
-                "Idioma" : 'Português',
-                "CriadoBotaoChat" : 'buttomChat',
-                "Navegador" : 'browser',
-                "UrlInicio" : 'url@test.com.br',
+                "IpUsuario" : '001112254889'
             });
 
             // Remove any items from the previous list that you don't want to send
