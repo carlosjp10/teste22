@@ -10,7 +10,7 @@
         var EmailCustom= = 'calberto@gmail.com';
         var PrimeiroNome = 'Carlos';
         var Sobrenome = 'Alberto';
-        var Cpf = '853.618.040-45;
+        var Cpf = '85361804045;
         
     function initEmbeddedMessaging() {
         try {
@@ -23,7 +23,7 @@
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
                 "IpUsuario" : ipUser,
                 "Idioma" : language,
-                "Navegador": browser,
+                "Navegador" : browser,
                 "UrlInicio" : url,
                 "Email_Custom" : EmailCustom,
                 "input_Cpf" : Cpf,
