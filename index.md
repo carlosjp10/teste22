@@ -8,8 +8,8 @@
         var buttomChat = '225569';
         var PrimeiroNome = 'Carlos';
         var EmailCustom= = 'calberto@gmail.com';
-        var PrimeiroNomeCustom = 'Carlos';
-        var SobrenomeCustom = 'Alberto';
+        var PrimeiroNome = 'Carlos';
+        var Sobrenome = 'Alberto';
         var Cpf = '853.618.040-45;
         
     function initEmbeddedMessaging() {
@@ -25,8 +25,10 @@
                 "Idioma" : language,
                 "Navegador": browser,
                 "UrlInicio" : url,
-                "EmailCustom" : Email_Custom,
-                "input_Cpf" : Cpf
+                "Email_Custom" : EmailCustom,
+                "input_Cpf" : Cpf,
+                "PrimeiroNomeCustom" : PrimeiroNome,
+                "SobrenomeCustom" : Sobrenome
                 
             });
 
