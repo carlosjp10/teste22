@@ -6,9 +6,8 @@
         var browser = navigator.appName;
         var url = window.location.href;
         var buttomChat = '225569';
-        var PrimeiroNome = 'Carlos';
-        var EmailCus = 'calberto@gmail.com';
-        var PrimeiroNome = 'Carlos';
+        var Nome = 'Carlos';
+        var Email = 'calberto@gmail.com';
         var Sobrenome = 'Alberto';
         var Cpf = '85361804045';
         
@@ -24,8 +23,11 @@
                 "IpUsuario" : ipUser,
                 "Idioma" : language,
                 "Navegador" : browser,
-                "UrlInicio" : url
-                
+                "UrlInicio" : url,
+                "Email_Custom" : Email,
+                "PrimeiroNomeCustom" : Nome,
+                "SobrenomeCustom" : Sobrenome
+
             });
 
             // Remove any items from the previous list that you don't want to send
