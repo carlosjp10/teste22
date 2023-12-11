@@ -24,9 +24,7 @@
                 "IpUsuario" : ipUser,
                 "Idioma" : language,
                 "Navegador" : browser,
-                "UrlInicio" : url,
-                "Email_Custom" : EmailCus,
-                "PrimeiroNomeCustom" : PrimeiroNome
+                "UrlInicio" : url
                 
             });
 
