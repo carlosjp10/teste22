@@ -4,7 +4,7 @@
         var ipUser = '001112254889';
         var language = (navigator.browserLanguage!=undefined) ?  navigator.browserLanguage : navigator.language;
         var browser = navigator.appName;
-        var url = = window.location.href;
+        var url = window.location.href;
         var buttomChat = '225569';
         
     function initEmbeddedMessaging() {
