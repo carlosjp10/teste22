@@ -19,7 +19,7 @@
                 "IpUsuario" : ipUser,
                 "Idioma" : language,
                 "Navegador": browser,
-                "UrlInicio" : 'url@test.com.br',
+                "UrlInicio" : url,
             });
 
             // Remove any items from the previous list that you don't want to send
