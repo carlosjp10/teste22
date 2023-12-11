@@ -7,10 +7,10 @@
         var url = window.location.href;
         var buttomChat = '225569';
         var PrimeiroNome = 'Carlos';
-        var EmailCustom = 'calberto@gmail.com';
+        var EmailCus = 'calberto@gmail.com';
         var PrimeiroNome = 'Carlos';
         var Sobrenome = 'Alberto';
-        var Cpf = '85361804045;
+        var Cpf = '85361804045';
         
     function initEmbeddedMessaging() {
         try {
@@ -25,7 +25,7 @@
                 "Idioma" : language,
                 "Navegador" : browser,
                 "UrlInicio" : url,
-                "Email_Custom" : EmailCustom,
+                "Email_Custom" : EmailCus,
                 "input_Cpf" : Cpf,
                 "PrimeiroNomeCustom" : PrimeiroNome,
                 "SobrenomeCustom" : Sobrenome
