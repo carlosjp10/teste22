@@ -3,6 +3,7 @@
     <script type='text/javascript'>
         var ipUser = '001112254889';
         var language = (navigator.browserLanguage!=undefined) ?  navigator.browserLanguage : navigator.language;
+        var browser = navigator.appName;
         var buttomChat = '225569';
         
     function initEmbeddedMessaging() {
@@ -15,7 +16,8 @@
             // Send data to Salesforce
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
                 "IpUsuario" : ipUser,
-                "Idioma" : language
+                "Idioma" : language,
+                "Navegador": browser
             });
 
             // Remove any items from the previous list that you don't want to send
