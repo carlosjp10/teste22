@@ -16,11 +16,11 @@
 
             // Send data to Salesforce
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-                "IpUsuario" : ipUser,
-                "Idioma" : idioma,
-                "CriadoBotaoChat" : buttomChat,
-                "Navegador" : browser,
-                "UrlInicio" : url,
+                "IpUsuario" : '001112254889',
+                "Idioma" : 'Português',
+                "CriadoBotaoChat" : 'buttomChat',
+                "Navegador" : 'browser',
+                "UrlInicio" : 'url@test.com.br',
             });
 
             // Remove any items from the previous list that you don't want to send
