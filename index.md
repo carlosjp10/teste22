@@ -13,7 +13,8 @@
 
             // Send data to Salesforce
             embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({
-                "IpUsuario" : '001112254889'
+                "IpUsuario" : '001112254889',
+                "Idioma" : 'Português';
             });
 
             // Remove any items from the previous list that you don't want to send
